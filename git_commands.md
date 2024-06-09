@@ -35,7 +35,7 @@
 
 8. **Switch to a different branch:**  
    ```bash
-   git checkout
+   git checkout <branch_name>
    ```
 
 9. **Merge changes from another branch:**  
@@ -63,7 +63,36 @@
     git push [alias] [branch]
     ```
 
-14. **Fetch and merge changes from a remote repository:**  
+14. **Add all changes in the current directory to the staging area:**
+    ```bash
+    git add .
+    ```
+
+15. **Fetch and merge changes from a remote repository:**  
     ```bash
     git pull
     ```
+16. **Create and switch to a new branch:**  
+   ```bash
+   git checkout -b <branch_name>
+   ```
+17. **Delete a branch:**  
+   ```bash
+   git branch -d <branch_name>
+   ```
+18. **Tag a commit:**  
+   ```bash
+   git tag <tag_name>
+   ```
+19. **List all tags:**  
+   ```bash
+   git tag 
+   ```
+20. **Revert a commit by creating a new commit:**  
+   ```bash
+   git revert <commit>
+   ```
+21. **Unstage a file:**  
+   ```bash
+   git reset <file>
+   ```
